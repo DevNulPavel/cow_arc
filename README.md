@@ -9,7 +9,7 @@ CowArc can be usefull for creating builders.
 
 # Examples
 
-```
+```rust
 let source = CowArc::new(vec![1, 2, 3]);
 
 // Still shared memory
@@ -22,7 +22,8 @@ changed.set_val(vec![1, 2, 3, 4]);
 assert!(std::ptr::eq(source.deref(), changed.deref()) == false);
 assert!(changed.eq(&vec![1, 2, 3, 4]));
 ```
-```
+
+```rust
 let source = CowArc::new(vec![1, 2, 3]);
 
 // Still shared memory

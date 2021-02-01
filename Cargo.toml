@@ -1,0 +1,16 @@
+[package]
+name = "cow_arc"
+version = "0.2.0"
+authors = ["Pavel Ershov <devnulpavel@gmail.com>"]
+edition = "2018"
+description = "CowArc can be useful for decreasing memory allocations by sharing immutable memory."
+license = "MIT"
+keywords = ["cow", "builder", "ram"]
+homepage = "https://github.com/DevNulPavel/cow_arc"
+repository = "https://github.com/DevNulPavel/cow_arc"
+documentation = "https://docs.rs/crate/cow_arc/"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

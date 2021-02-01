@@ -3,7 +3,6 @@
 CowArc can be useful for decreasing memory allocations by sharing immutable memory.
 
 It saves some RAM by sharing immutable values between CowArc clones.
-
 Memory allocates only in case of changing value.
 
 CowArc can be usefull for creating builders.

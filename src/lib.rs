@@ -12,7 +12,7 @@ use std::{
     }
 };
 
-#[derive(Debug)]
+#[derive(Debug, Default)]
 pub struct CowArc<T: Clone>{
     inner: Arc<T>
 }

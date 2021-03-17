@@ -1,6 +1,6 @@
 [package]
 name = "cow_arc"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Pavel Ershov <devnulpavel@gmail.com>"]
 edition = "2018"
 description = "CowArc can be useful for decreasing memory allocations by sharing immutable memory."

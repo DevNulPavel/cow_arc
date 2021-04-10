@@ -1,3 +1,5 @@
+[![Rust](https://github.com/DevNulPavel/cow_arc/actions/workflows/rust.yml/badge.svg)](https://github.com/DevNulPavel/cow_arc/actions/workflows/rust.yml)
+
 # Purposes 
 
 CowArc can be useful for decreasing memory allocations by sharing immutable memory.
